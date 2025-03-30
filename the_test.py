@@ -3,6 +3,7 @@
 print("Loading...")
 score = 0
 
+print("The Test by Leo Johnson - Program version 1.1")
 print("Welcome To The Test!")
 name = input("What's your name? ")
 print("Ok "+name+", are you ready (Too bad coz we are starting now.)")
@@ -50,7 +51,7 @@ if q6 == "y":
 if q6 == "n":
     score = score - 1000
     
-q7 = input("You find wallet in the park. Do you 1: Spend big 2: Hand it in to the police 3: Purcahse presents for the family (1/2/3) ")
+q7 = input("You find a wallet in the park. Do you 1: Spend big 2: Hand it in to the police 3: Purcahse presents for the family (1/2/3) ")
 if q7 == "1":
     score = score - 10
 if q7 == "3":
@@ -70,7 +71,7 @@ if q9 == "y":
 if q9 == "n":
     score = score + 4
     
-q10 = input("Is your password 'password' or '1234'? (y/n)" )
+q10 = input("Is your password 'password' or '1234'? (y/n) ")
 
 rs = "n"
 if score > -998 and score < 0:
